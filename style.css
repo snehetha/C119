@@ -1,0 +1,28 @@
+body{
+    color: antiquewhite;
+    }
+ #show_sketch{
+     float: right;
+ }
+ #sketch{
+     background-color: lightpink;
+     color: purple;
+ }
+ p{
+     font-size: 25px;
+     padding-top: 20px;
+ }
+ canvas{
+     border: 5px solid white;
+     border-radius: 25px;
+     animation-name: Example;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+ }
+ @keyframes Example {
+     from{box-shadow:5px 5px 38px lightpink;
+
+    }
+    to{box-shadow:5px 5px 38px turquoise;
+    }
+ }
